@@ -1,5 +1,4 @@
-In this project, let's build an **Appointments App** by applying the concepts we have learned till now.
-
+**Appointments App** 
 ### Refer to the image below:
 
 <br/>
@@ -60,34 +59,6 @@ The app must have the following functionalities
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
-
-- `src/components/Appointments/index.js`
-- `src/components/Appointments/index.css`
-- `src/components/AppointmentItem/index.js`
-- `src/components/AppointmentItem/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- The HTML input element with the type `date` is designed for the user to select the date from a date picker
-
-  ```jsx
-  <input type="date" />
-  ```
-
-- The `format` function in the date-fns package can be used to get the formatted date string in the given format
-
-  ```jsx
-  import {format} from 'date-fns'
-
-  console.log(format(new Date(2021, 19, 07), 'dd MMMM yyyy, EEEE')) // 19 July 2021, Monday
-  ```
-
 </details>
 
 ### Important Note
@@ -138,9 +109,3 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
