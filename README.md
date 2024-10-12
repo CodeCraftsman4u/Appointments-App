@@ -55,12 +55,6 @@ The app must have the following functionalities
 
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-</details>
-
 ### Important Note
 
 <details>
