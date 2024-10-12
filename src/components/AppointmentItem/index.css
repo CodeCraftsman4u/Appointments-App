@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.appointment-item {
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid #b5b7c4;
+  padding: 5px 15px 5px 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+}
+.starredButton {
+  order: 1;
+  align-self: flex-start;
+  margin-top: 25px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.starr-image {
+  width: 30px;
+}
+.card-details {
+  align-items: center;
+  margin: 0px;
+}
+.appointment-title {
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 25px;
+  color: #171f46;
+}
+.appointment-date {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #b5b7c4;
+}
